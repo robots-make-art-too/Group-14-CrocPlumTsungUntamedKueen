@@ -6,6 +6,6 @@ Ideas
 Best Contact Info
 - Dickson = Discord: Tsung#1331, Email: dicksonh@my.yorku.ca
 - 
-- 
+- Maureen = Discord: plum#9307, Email: naveram@my.yorku.ca
 - 
 - 
