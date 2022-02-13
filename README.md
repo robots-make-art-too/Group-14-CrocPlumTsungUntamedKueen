@@ -5,7 +5,7 @@ Ideas
 
 Best Contact Info
 - Dickson = Discord: Tsung#1331, Email: dicksonh@my.yorku.ca
+- Tarek = Discord: Crocostar#1764, Email: Trk27@my.yorku.ca (Zombie enthusiast)
 - 
-- Maureen = Discord: plum#9307, Email: naveram@my.yorku.ca
 - 
 - 
