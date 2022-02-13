@@ -4,8 +4,8 @@ Ideas
 - Something that uses a facecam
 
 Best Contact Info
-1)
-2)
-3)
-4)
-5)
+- Dickson = Dicord: Tsung#1331, Email: dicksonh@my.yorku.ca
+- 
+- 
+- 
+- 
