@@ -1,3 +1,5 @@
+Here are some resources that we can look at if we are doing AR stuff - Dickson
+
 https://ar-js-org.github.io/AR.js-Docs/
 - This link talks about doing augmented reality through the web
 - This is done by using an HTML and javascript to code augmented reality through the phone
@@ -14,7 +16,8 @@ https://3sidedcube.com/ar-js-a-guide-to-developing-an-augmented-reality-web-app/
 
 https://www.youtube.com/watch?v=NIXJJoqM8BQ
 - Youtube tutorial on how to do augmented reality through the phone and use ar.js
+s
+Misc. resources:
 
-Misc. resources
 https://www.mynextemployee.com/post/how-to-create-an-augmented-reality-web-app-using-ar-js-lesson-1
 https://betterprogramming.pub/build-your-own-filter-e88ba0dcbfae
