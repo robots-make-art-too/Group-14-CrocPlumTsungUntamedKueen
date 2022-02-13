@@ -4,7 +4,7 @@ Ideas
 - Something that uses a facecam
 
 Best Contact Info
-- Dickson = Dicord: Tsung#1331, Email: dicksonh@my.yorku.ca
+- Dickson = Discord: Tsung#1331, Email: dicksonh@my.yorku.ca
 - 
 - 
 - 
