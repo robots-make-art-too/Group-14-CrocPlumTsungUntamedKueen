@@ -1,4 +1,4 @@
-Here are some resources that we can look at if we are doing AR stuff
+Here are some resources that we can look at if we are doing AR stuff - Dickson
 https://ar-js-org.github.io/AR.js-Docs/
 - This link talks about doing augmented reality through the web
 - This is done by using an HTML and javascript to code augmented reality through the phone
