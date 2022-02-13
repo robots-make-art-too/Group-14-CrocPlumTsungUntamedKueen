@@ -4,4 +4,8 @@ Ideas
 - Something that uses a facecam
 
 Best Contact Info
-
+1)
+2)
+3)
+4)
+5)
