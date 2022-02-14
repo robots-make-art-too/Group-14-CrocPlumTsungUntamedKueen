@@ -1,3 +1,7 @@
+////
+
+Hey here are some resources that we can use for the project - Dickson 
+
 **Coding Resources for AR** 
 https://ar-js-org.github.io/AR.js-Docs/ - This link talks about doing augmented reality through the web. This is done by using an HTML and javascript to code augmented reality through the phone, the HTML script acts as a website to hold the augmented reality and the javascript will be the augmented reality code (The augmented can be shown on the phone by using a QR code). Could be a good place to start when trying get some idea on how to do it
 
@@ -19,4 +23,4 @@ https://www.bannerflow.com/blog/pokemon-go-augmented-reality-changing-marketing/
 
 https://www.reddit.com/r/augmentedreality/ - Reddit page containing augmented reality stuff, could be a place to look for stuff relating to this project 
 
-- Dickson
+//////
