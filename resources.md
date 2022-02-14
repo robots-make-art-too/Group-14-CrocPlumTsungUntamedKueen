@@ -8,3 +8,6 @@
 ## Aesthetic Resources
 - [Top 10 Best Augmented Reality Effects for Instagram App in 2021–2020, according to Catchar](https://medium.com/catchar/top-10-best-augmented-reality-effects-for-instagram-app-in-2020-according-to-catchar-89615f0b4d6f) - some examples of popular instagram filters from last year
 - [ULTRA CLEAN Augmented Reality Experience BTS](https://www.behance.net/gallery/105069513/ULTRA-CLEAN-Augmented-Reality-Experience-BTS)
+- [When Street Art meets Augmented Reality](https://haypopup.com/2015/09/03/when-street-art-meets-augmented-reality/)
+- [some cool ar game filters on instagram that we can take inspiration from (since we're interested in making both a filter and a game of sorts)[https://tej.ie/10-instagram-ar-game-filters/]
+- if we wanna go more the virtual pet-kinda route, the first thing that comes into mind are (nintendo ar cards)[https://www.youtube.com/watch?v=yxfs8vI-y_Q]
