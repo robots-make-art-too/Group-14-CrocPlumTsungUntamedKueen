@@ -1,7 +1,7 @@
-1) https://vrscout.com/news/snapchat-3d-full-body-tracking-lenses/# 
+1)https://vrscout.com/news/snapchat-3d-full-body-tracking-lenses/# 
  This is a link talking about how snapchat started releasing Full body tracking AR filters.
 
-2) https://lenslist.co/tag/full-body-tracking/
+2)https://lenslist.co/tag/full-body-tracking/
  This website has an amazing variety of ideas for full body filters we can use.
 
 3)https://ar-code.com/
@@ -12,4 +12,3 @@
 
 5)https://github.com/ju1ce/April-Tag-VR-FullBody-Tracker
  A github code usied to make a vrchat body tracker.
- 
