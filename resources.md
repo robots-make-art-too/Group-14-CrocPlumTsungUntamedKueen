@@ -97,4 +97,16 @@ Misc. resources:
 https://www.mynextemployee.com/post/how-to-create-an-augmented-reality-web-app-using-ar-js-lesson-1
 https://betterprogramming.pub/build-your-own-filter-e88ba0dcbfae
 
+Dhruv's resource's
+
+1. https://vrgamedevelopment.pro/how-to-code-an-ar-application/ (Information regarding a AR App, possible even making an AR Game for phones)
+2. https://www.hackster.io/augmented-reality/projects (Projects that have been done by others that we can learn from and/or give us a better idea on specifics we want to do)
+3. https://type-01.com/ar-graphic-design-is-there-a-fruitful-future-ahead/ (Graphic's with AR, possible resource for AR game)
+4. https://www.youtube.com/watch?v=Axam9Gr4UJ0&ab_channel=BenMarriott  (AR for beginners via ADOBE AERO)
+5. https://github.com/AR-js-org (AR.JS Github for possible future usage)
+6. https://imaginear.com/blog/create-ar-games (Creating Aumented Reality Games)
+7. https://www.youtube.com/watch?time_continue=11&v=u5hRtTEhnOA&feature=emb_title&ab_channel=JimmyVegas (Creating an Endless Runner in Unity)
+8. https://wiki.gdevelop.io/gdevelop5/tutorials/endless-runner (beginners tutorial to an Endless runner)
+9. https://code.tutsplus.com/tutorials/build-an-endless-runner-game-from-scratch-background-motion--mobile-9406 (Background motion for an endless runner)
+10. https://developers.google.com/games/services/android/quickstart (Andriod Game Dev with google Play Services)
 
