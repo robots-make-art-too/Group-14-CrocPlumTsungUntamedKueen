@@ -8,4 +8,4 @@ Best Contact Info
 - Tarek = Discord: Crocostar27#1764, Email: Trk27@my.yorku.ca
 - Maureen = Discord: plum#9307, Email: naveram@my.yorku.ca
 - Dhruv = Discord: Untamed#8696, Email: pdhruv800@gmail.com
-- 
+- Keerthana = Discord: itskueen#4716, Email: ket18@my.yorku.ca
