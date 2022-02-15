@@ -110,3 +110,17 @@ Dhruv's resource's
 9. https://code.tutsplus.com/tutorials/build-an-endless-runner-game-from-scratch-background-motion--mobile-9406 (Background motion for an endless runner)
 10. https://developers.google.com/games/services/android/quickstart (Andriod Game Dev with google Play Services)
 
+
+Kerthana's Resource's
+1.https://www.youtube.com/watch?v=l8abAMxF5iE (creating Ar using unity3d)
+2.https://www.youtube.com/watch?v=l8abAMxF5iE (creating Ar using unity3d pt 2)
+3.https://www.youtube.com/watch?v=QK_aSWRI6ak (Introduction to AR Programming)
+4.https://www.hackster.io/augmented-reality/projects (list of AR project ideas)
+5. https://arvrtips.com/new-ar-games/ (list of Ar game ideas)
+6.https://www.information-age.com/12-hot-augmented-reality-ideas-for-your-business-123471817/ (list of most common uses of AR)
+7.https://www.youtube.com/watch?v=M5zxNMAQVR0 (simple AR idea)
+8.https://www.youtube.com/watch?v=waO47cYxWN8 (AR idea i like)
+9.https://www.youtube.com/watch?v=X6o6T40w6As (AR idea i like)
+10.https://www.youtube.com/watch?v=1a_ik-uXWo4 (tutorial for AR game)
+
+
