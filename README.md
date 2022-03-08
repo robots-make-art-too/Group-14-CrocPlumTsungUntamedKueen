@@ -11,8 +11,3 @@
 - Keerthana = Discord: itskueen#4716, Email: ket18@my.yorku.ca
 
 
-## Group Discussion - March 8
-- chose a basic idea for our 3D model
-- allocated work to everyone
-- started working on making the github website
-
