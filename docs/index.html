@@ -7,7 +7,20 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>This is a website</h1>
-    <p>pog</p>
+    <title>CrocPlumTsungUntamedKueen AR Group Project</title>
+    <p>This group project is an Augment reality project</p>
+    <hr>
+    <p>Press the button below to see the AR project</p>
+    <button type="button" onclick="openTab('ar.html')">Take me to AR</button>
+    <script>
+        function openTab(url) {
+            const link = document.createElement('a');
+            link.href = url;
+            link.target = '_blank';
+            document.body.appendChild(link);
+            link.click();
+            link.remove();
+        }
+    </script>
 </body>
 </html>
