@@ -1,5 +1,6 @@
 ---
 This is taken from the eecs1720 github prof website branch, this is mainly used for referencing what it would look like to link the AR model to a website, so far this is linked to nothing
+This is a html script
 ---
 
 <!DOCTYPE html>
