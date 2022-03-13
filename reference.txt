@@ -17,32 +17,3 @@ This is a html script
 		</a-scene>
 	</body>
 </html>
-
-
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <title>CrocPlumTsungUntamedKueen AR Group Project</title>
-    <p>This group project is an Augment reality project</p>
-    <p>Currently the camera button doesn't show anying, the project is progressing to make the button to work</p>
-    <hr>
-    <p>Press the button below to see the AR project</p>
-    <button type="button" onclick="openTab('ar.html')">Take me to AR</button>
-    <script>
-        function openTab(url) {
-            const link = document.createElement('a');
-            link.href = url;
-            link.target = '_blank';
-            document.body.appendChild(link);
-            link.click();
-            link.remove();
-        }
-    </script>
-</body>
-</html>
