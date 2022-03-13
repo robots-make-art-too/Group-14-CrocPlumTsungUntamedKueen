@@ -4,7 +4,17 @@ body{
     text-align: center;
 }
 
-p {
-    font-weight: bold;
+h1 {
+    font-style: bold;
+    text-decoration: underline;
     font-size: 150%;
+}
+
+p {
+    font-style: bold;
+    font-size: 150%;
+}
+
+#message{
+    text-decoration: underline;
 }
