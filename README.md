@@ -7,4 +7,3 @@ Website is being made by Dickson
 - Description of the ar stuff
 - The actual ar qr code
 - Make the website nicer looking 
-- Make the 3D object show up whenever the camera points at the marker
