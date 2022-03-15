@@ -4,9 +4,14 @@
     <script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.6.0/aframe/build/aframe-ar.js"></script>
     <body style='margin : 0px; overflow: hidden;'>
         <a-scene embedded arjs='sourceType: webcam;'>
-            <a-box position='0 0.5 0' material='opacity: 0.5' color='yellow';></a-box>
-            <a-sphere position='1 0.5 0' color='blue';></a-sphere>
-            <a-marker-camera preset='kanji'></a-marker-camera>
+            <a-assets>
+		        <a-asset-item id="bowser" src="https://raw.githack.com/robots-make-art-too/GroupProject_info/df693164cd6fe5ccead4f9bd9a3be5a043edcbfb/docs/website/assets/models/bowser.glb"></a-asset-item>
+	        </a-assets>
+            
+            <a-marker id="custom-1" type="pattern" url="https://raw.githubusercontent.com/robots-make-art-too/GroupProject_info/gh-pages/docs/website/assets/markers/pattern-go.patt">
+                <a-entity id="bowser-gltf" position="0.5 0.5 0" scale="0.05 0.05 0.05" gltf-model="#bowser"></a-entity>
+            </a-marker>
+            
         </a-scene>
     </body>
 </html>
