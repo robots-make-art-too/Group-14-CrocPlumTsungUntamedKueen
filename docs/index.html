@@ -72,14 +72,24 @@ text-transform: uppercase;
 <section>
 <div><b>CrocPlumTsungUntamedKueen AR Group Project</b></div>
 
-<p><i>This group project is an Augment reality project</i></p><br>
+<p><i>This group project is an Augment reality project. This augment reality project is AR of a speed sprouting out of a seed and growing into a sunflower. This project uses both a camera and a hiro marker to showcase the flower. To see the AR object, click on the button and scan the hiro marker to see the sunflower sprouting from a speed</i></p><br>
 
 <button class="button" type="button" onclick="openTab('ar.html')">Grow a Sunflower</button>
+<button class="button" type="button" onclick="openMark('hiro.html')">Click to see the hiro marker</button>
 </section>
 </main>
 </header>
 <script>
      function openTab(url) {
+            const link = document.createElement('a');
+            link.href = url;
+            link.target = '_blank';
+            document.body.appendChild(link);
+            link.click();
+            link.remove();
+        }
+      
+        function openMark(url) {
             const link = document.createElement('a');
             link.href = url;
             link.target = '_blank';
