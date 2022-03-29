@@ -2,10 +2,11 @@
 
 <html>
 <head>
-<title>Ar Project EECS1720</title>
+<title>AR Project EECS1720</title>
 <style>
 *{
-margin:0; padding:0;
+margin:0;
+padding:0;
 }
 
 body {
@@ -40,6 +41,10 @@ align-items: center;
 text-align: center;
 }
 
+section .description{
+  margin-top: 200px;
+}
+
 section h3{
 letter-spacing: 3px; font-weight: 200;
 }
@@ -48,19 +53,24 @@ section h1{
 text-transform: uppercase;
 }
 
+p{
+  font-size: 18px;
+}
+
 .button{
    background-color:black;
    color:white;
 }
 
-</style>
+button:hover{
+  color:red;
+}
 
+</style>
 </head>
 
 <body>
-    
 <header>
-
 <nav>
 <div class = "logo" <h3 style="color:white;"><img src="Data/sproutimg.jpg" alt="sprout" width="137" height="139"></h3></div>
 
@@ -71,9 +81,16 @@ text-transform: uppercase;
 
 <main>
 <section>
-<div><b>CrocPlumTsungUntamedKueen AR Group Project</b></div>
-
-<p><i>This group project is an Augment reality project. This augment reality project is AR of a speed sprouting out of a seed and growing into a sunflower. This project uses both a camera and a hiro marker to showcase the flower. To see the AR object, click on the button and scan the hiro marker to see the sunflower sprouting from a speed</i></p><br>
+<div class="description">
+  <h1>CrocPlumTsungUntamedKueen AR Group Project</h1><br>
+  <p><i>This group project is an Augment reality project. This augment reality project is AR of a speed sprouting out of a seed and growing into a sunflower. This project uses both a camera and a hiro marker to showcase the flower. To see the AR object, click on the button and scan the hiro marker to see the sunflower sprouting from a speed</i></p><br>
+  <p><i>Group Members:</i></p>
+  <p><i>- Tarek</i></p>
+  <p><i>- Dickson</i></p>
+  <p><i>- Maureen</i></p>
+  <p><i>- Dhruv</i></p>
+  <p><i>- Keerthana</i></p>
+</div>
 
 <button class="button" type="button" onclick="openTab('ar.html')">Grow a Sunflower</button>
 <button class="button" type="button" onclick="openMark('hiro.html')">Click to see the hiro marker</button>
