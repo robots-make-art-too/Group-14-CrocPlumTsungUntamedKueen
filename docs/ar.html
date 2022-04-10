@@ -2,6 +2,18 @@
 <html>
     <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
     <script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.6.0/aframe/build/aframe-ar.js"></script>
+    <script>
+      window.onload = function () {
+        document
+          .querySelector(".say-hi-button")
+          .addEventListener("click", function () {
+            // here you can change also a-scene or a-entity properties, like
+            // changing your 3D model source, size, position and so on
+            // or you can just open links, trigger actions...
+            alert("Hi there!");
+          });
+      };
+    </script> 
     <body style='margin : 0px; overflow: hidden;'>
         <body style="margin : 0px; overflow: hidden;">
            
@@ -27,19 +39,7 @@
                 <button class="say-hi-button">SAY HI!</button>
               </div>
 
-              <script>
-                window.onload = function () {
-                  document
-                    .querySelector(".say-hi-button")
-                    .addEventListener("click", function () {
-                      // here you can change also a-scene or a-entity properties, like
-                      // changing your 3D model source, size, position and so on
-                      // or you can just open links, trigger actions...
-                      alert("Hi there!");
-                    });
-                };
-              </script> 
-              
+  
           </body>
   
 </html>
