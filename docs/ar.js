@@ -36,11 +36,11 @@ var models = [
 {
     },
     {
-        url: './Assets/herobrine/scene.gltf',
+        url: './Assets/dirt.glb',
         scale: '0.2 0.2 0.2',
         rotation: '0 180 0',
-        info: 'Herobrine, Lv. 80, HP 100/100',
-        message: 'I like to dance!'
+        info: 'Dirt, HP 100/100',
+        message: 'Time to Grow!'
     },
 
 ];
