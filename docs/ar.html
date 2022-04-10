@@ -1,45 +1,24 @@
 <!DOCTYPE html>
 <html>
-    <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
-    <script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.6.0/aframe/build/aframe-ar.js"></script>
-    <script>
-      window.onload = function () {
-        document
-          .querySelector(".say-hi-button")
-          .addEventListener("click", function () {
-            // here you can change also a-scene or a-entity properties, like
-            // changing your 3D model source, size, position and so on
-            // or you can just open links, trigger actions...
-            alert("Hi there!");
-          });
-      };
-    </script> 
-    <body style='margin : 0px; overflow: hidden;'>
-        <body style="margin : 0px; overflow: hidden;">
-           
-              <a-scene embedded arjs='sourceType: webcam;'>
-                  
-              <a-assets>
-      
-               <a-asset-item id="dirt" src="https://github.com/robots-make-art-too/Group-14-CrocPlumTsungUntamedKueen/blob/gh-pages/Assets/dirt.glb"></a-asset-item>
-               <a-asset-item id="seed" src="https://github.com/robots-make-art-too/Group-14-CrocPlumTsungUntamedKueen/blob/gh-pages/Assets/Seed.glb"></a-asset-item>
-      
-              </a-assets>
-                  
-                  <a-marker id="custom-1" type="pattern" url="https://raw.githubusercontent.com/robots-make-art-too/Group-14-CrocPlumTsungUntamedKueen/main/ar_marker/pattern-sprout_marker.patt">
-                      <a-entity id="seed-gltf" position="0.5 0.5 0" scale="0.05 0.05 0.05" gltf-model="#seed"></a-entity>
-                  </a-marker>
-      
-                  <a-entity camera></a-entity>
-                  
-                  
-              </a-scene>
+  <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+  <!-- we import arjs version without NFT but with marker + location based support -->
+  <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+  <script src="ar.js"></script>
+  <link rel="stylesheet" href="ar.css">
 
-              <div class="buttons">
-                <button class="say-hi-button">SAY HI!</button>
-              </div>
-
-  
-          </body>
-  
+  <body style="margin : 0px; overflow: hidden;">
+    <div class="buttons">
+      <button class="say-hi-button">SAY HI!</button>
+    </div>
+    <a-scene embedded arjs>
+      <a-marker preset="hiro">
+        <a-entity
+          position="0 0 0"
+          scale="0.05 0.05 0.05"
+          gltf-model="https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/AR-js-org/AR.js/master/aframe/examples/image-tracking/nft/trex/scene.gltf"
+        ></a-entity>
+      </a-marker>
+      <a-entity camera></a-entity>
+    </a-scene>
+  </body>
 </html>
