@@ -8,11 +8,9 @@
 		<script src="https://unpkg.com/aframe-look-at-component@0.8.0/dist/aframe-look-at-component.min.js"></script>
 		<script src="https://raw.githubusercontent.com/n5ro/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
 		<script THREEx.ArToolkitContext.baseURL = 'https://raw.githack.com/jeromeetienne/ar.js/master/three.js/'></script>
-		<!-- one of these is enough; nft is for images,  the other markers. both handle location-based-->	
 		<script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar-nft.js"></script>
 		<script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
 		<script src="script.js"></script>
-		<!-- -->
 	</head>
 
 	<body style="margin: 0; overflow: hidden;">
@@ -80,8 +78,9 @@
 			<a-camera id='camera1' look-controls-enabled='false' arjs-look-controls='smoothingFactor: 0.1' gps-camera='gpsMinDistance: 5' rotation-reader> </a-camera>
 			
 			<!--Text-->
-			<a-text value="See the stages of a sunflower" look-at="[gps-camera]" scale="2 2 2" position='-3 3 -3'></a-text>
-			<a-text value="WASD to move around" look-at="[gps-camera]" scale="2 2 2" position='-3 2.5 -3'></a-text>
+			<a-text value="See the Stages of a Sunflower" look-at="[gps-camera]" scale="2 2 2" position='-3 3 -3'></a-text>
+			<a-text value="WASD to Move Around" look-at="[gps-camera]" scale="2 2 2" position='-3 2.5 -3'></a-text>
+			<a-text value="Click and Drag to Rotate the Camera" look-at="[gps-camera]" scale="2 2 2" position='-3 2 -3'></a-text>
 		</a-scene>
 	</body>
 </html>
