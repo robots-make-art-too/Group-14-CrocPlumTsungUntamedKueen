@@ -1,26 +1,18 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<!-- <meta charset='utf-8'>
-		<meta http-equiv='X-UA-Compatible' content='IE=edge'> -->
-		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-
-		<script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
-		<script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
-		<script type="text/javascript" src="ar-threex.js"></script>
-
-		<script src="https://unpkg.com/aframe-look-at-component@0.8.0/dist/aframe-look-at-component.min.js"></script>
-		<script src="https://cdn.statically.io/gh/donmccurdy/aframe-extras/fe293f78/dist/aframe-extras.loaders.js"></script>
-
-		<script type='text/javascript' src='./script.js'></script>
-		<link rel="stylesheet" type="text/css" href="./style.css"/>
-
-	</head>
-  <body>
+  <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+  <!-- we import arjs version without NFT but with marker + location based support -->
+  <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+  <body style="margin : 0px; overflow: hidden;">
     <a-scene embedded arjs>
-      <a-marker type='https://github.com/robots-make-art-too/Group-14-CrocPlumTsungUntamedKueen/blob/main/ar_marker/pattern-sprout_marker.patt'>
-        <a-image src="blue.png"
-          position= "0 1 0"
-          scale= "1 1 1"
-          rotation="0 2 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 7000"
-        />
+      <a-marker preset="hiro">
+        <a-entity
+          position="0 0 0"
+          scale="0.05 0.05 0.05"
+          gltf-model="SunFlower.gltf"
+        ></a-entity>
+      </a-marker>
+      <a-entity camera></a-entity>
+    </a-scene>
+  </body>
+</html>
