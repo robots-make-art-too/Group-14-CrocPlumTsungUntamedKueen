@@ -21,14 +21,68 @@
         	arjs="sourceType: webcam; videoTexture: true; debugUIEnabled: false;"
         	renderer="antialias: true; alpha: true">
 
-			<!-- Camera stuff -->
-			<a-camera gps-projected-camera rotation-reader></a-camera>
-            <a-entity
-            position="0 0 0"
+           <!--Stage 1-->
+			<a-entity
+            position="-3.5 0 -1"
             scale="0.05 0.05 0.05"
-            gltf-model="SunFlower.gltf"
+            gltf-model="dirt.gltf"
             ></a-entity>
+			
+			<!--Stage 2-->
+			<a-entity
+            position="-0.4 0 -1"
+            scale="0.05 0.05 0.05"
+            gltf-model="dirt.gltf"
+            ></a-entity>
+			<a-entity
+            position="-0.4 1.5 -1"
+            scale="0.08 0.08 0.08"
+            gltf-model="Seed.gltf"
+            ></a-entity>
+			
+			<!--Stage 3-->
+			<a-entity
+            position="2.5 0 -1"
+            scale="0.05 0.05 0.05"
+            gltf-model="dirt.gltf"
+            ></a-entity>
+			<a-entity
+            position="2.5 0.4 -1"
+            scale="0.05 0.05 0.05"
+            gltf-model="Seed.gltf"
+            ></a-entity>
+
+			<!--Stage 4-->
+			<a-entity
+            position="5.5 0 -1"
+            scale="0.05 0.05 0.05"
+            gltf-model="dirt.gltf"
+            ></a-entity>
+			<a-entity
+            position="5.5 0.2 -1"
+            scale="0.02 0.02 0.02"
+            gltf-model="sunflower.gltf"
+            ></a-entity>
+
+			<!--Stage 5-->
+			<a-entity
+            position="9 0 -1"
+            scale="0.05 0.05 0.05"
+            gltf-model="dirt.gltf"
+            ></a-entity>
+			<a-entity
+            position="9 0 -1"
+            scale="0.05 0.05 0.05"
+            gltf-model="sunflower.gltf"
+            ></a-entity>
+
+			<!--Stage Camera-->
 			<a-camera id='camera1' look-controls-enabled='false' arjs-look-controls='smoothingFactor: 0.1' gps-camera='gpsMinDistance: 5' rotation-reader> </a-camera>
+			
+			<!--Text-->
+			<a-text value="See the stages of a sunflower" look-at="[gps-camera]" scale="2 2 2" position='-3 3 -3'></a-text>
+			<a-text value="WASD to move around" look-at="[gps-camera]" scale="2 2 2" position='-3 2.5 -3'></a-text>
 		</a-scene>
 	</body>
 </html>
+<!-- Dirt + seed + sunfire and write the stages of the sunflower field-->
