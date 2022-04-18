@@ -1,25 +1,34 @@
 <!DOCTYPE html>
 <html>
-  <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
-  <!-- we import arjs version without NFT but with marker + location based support -->
-  <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
-  <body style="margin : 0px; overflow: hidden;">
-    <a-scene embedded arjs>
-      <a-marker preset="https://github.com/robots-make-art-too/Group-14-CrocPlumTsungUntamedKueen/blob/gh-pages/ar_marker/pattern-sprout_marker.patt">
-        <a-entity
-          position="0 0 0"
-          scale="0.05 0.05 0.05"
-          gltf-model="Seed.gltf"
-        ></a-entity>
-      </a-marker>
-      <a-marker preset="hiro">
-        <a-entity
-          position="0 0 0"
-          scale="0.05 0.05 0.05"
-          gltf-model="SunFlower.gltf"
-        ></a-entity>
-      </a-marker>
-      <a-scene embedded arjs>
-      <a-entity camera></a-entity>
-    </a-scene>
+	<head>
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+
+		<script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+		<script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+		<script type="text/javascript" src="ar-threex.js"></script>
+
+		<script src="https://unpkg.com/aframe-look-at-component@0.8.0/dist/aframe-look-at-component.min.js"></script>
+		<script src="https://cdn.statically.io/gh/donmccurdy/aframe-extras/fe293f78/dist/aframe-extras.loaders.js"></script>
+
+		<script type='text/javascript' src='./script.js'></script>
+		<link rel="stylesheet" type="text/css" href="./style.css"/>
+
+	</head>
+
+	<body style="margin: 0; overflow: hidden;">
+
+		<div class="centered instructions"></div>
+
+		<a-scene
+			vr-mode-ui="enabled: false"
+			arjs="sourceType: webcam; videoTexture: true; debugUIEnabled: false; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960;"
+			renderer="antialias: true; alpha: true">
+
+			<a-camera></a-camera>
+		
+		</a-scene>
+		<div class="centered">
+			<button data-action="change"></button>
+		</div>
+	</body>
 </html>
