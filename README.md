@@ -10,4 +10,5 @@
 - Dhruv = Discord: Untamed#8696, Email: pdhruv800@gmail.com
 - Keerthana = Discord: itskueen#4716, Email: ket18@my.yorku.ca
 
-
+## Phase 3 documentation
+https://github.com/robots-make-art-too/Group-14-CrocPlumTsungUntamedKueen/tree/main/Phase%203%20Documentation
